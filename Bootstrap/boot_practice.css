@@ -1,0 +1,344 @@
+
+/* Navigation bar CSS*/
+.container li{
+	padding-top:20px;
+	padding-bottom: 20px;
+	border-top:4px solid rgb(255, 255, 255);	
+}
+
+.container img{
+	padding-top:15px;
+	padding-bottom: 20px;
+}
+
+.container li:hover{ 
+	border-top:4px solid rgb(235, 101, 39);
+}
+
+.container ul li a{
+	color:black ;
+	float:left;
+}
+
+
+/* image_banner1 CSS */
+
+
+
+.image_banner1{
+
+	background-image: url("images/banner-istock.jpg");
+	background-repeat: no-repeat;
+
+}
+
+
+.image_banner1 .container{
+
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.image_banner1 .container p{
+
+	font-size:35px;
+	color:white;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.image_banner1 .container p span{
+
+	font-weight: bolder;
+}
+.image_banner1 .container .meeting p{
+
+	font-size: 15px;
+	margin-top:15px;
+	font-weight: 600;
+	
+	}
+.image_banner1 .container .meeting{
+
+border-radius: 15px 15px 15px 15px;
+background-color:rgba(248, 212, 8, 0.74);
+border-radius: 50px;
+margin-top:40px;
+width:55%;
+padding: 1px;
+text-align: center;
+}
+
+/*banner_2  CSS*/
+
+.banner_2{
+	background-color: white;
+	width:100%;
+
+}
+
+.banner_2 .container{
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+
+.banner_2 .container  p{
+	font-size:15px;
+	color:black;
+	text-align: center;
+	font-family:'Times New Roman';
+
+
+}
+.banner_2 .container  hr{
+	width:30px;
+	height:2px;
+	background-color: rgb(243, 54, 21);
+	text-align: center;
+
+
+}
+
+.banner_2 .container h2{
+	color:black;
+	text-align: center;
+}
+
+
+.banner_2 .container .row img{
+	max-width: 100%; 
+	padding-top:10px;  
+	margin-left: auto;
+	text-align: center;
+	padding-left: 30px;
+}
+
+
+/* Banner_3 CSS*/
+
+.banner_3{
+	background-color: wheat;
+	width:100%;
+
+}
+
+.banner_3 .container{
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+
+.banner_3 .container  p{
+	font-size:15px;
+	color:black;
+	text-align: center;
+	font-family:'Times New Roman';
+
+
+}
+.banner_3 .container  hr{
+	width:30px;
+	height:2px;
+	background-color: rgb(243, 54, 21);
+	text-align: center;
+
+
+}
+
+.banner_3 .container h2{
+	color:black;
+	text-align: center;
+
+}
+
+.banner_3 .container .row img{
+	max-width: 100%; 
+	padding-top:10px; 
+	padding-top:20px;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+/* Banner_4 CSS*/
+
+.banner_4{
+	background-color: white;
+	width:100%;
+
+}
+
+.banner_4 .container_3{
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+
+.banner_4 .container_3  p{
+	font-size:15px;
+	color:black;
+	text-align: center;
+	font-family:'Times New Roman';
+
+
+}
+.banner_4 .container_3  hr{
+	width:30px;
+	height:2px;
+	background-color: rgb(243, 54, 21);
+	text-align: center;
+
+
+}
+
+.banner_4 .container_3 h2{
+	color:black;
+	text-align: center;
+
+}
+
+.banner_4 .container_3 .row img{
+	padding-top:20px;
+	text-align: center;
+
+}
+
+.banner_4 .container_3 .row {
+	text-align: center;
+}
+
+.banner_4 .container_3 .row h4{
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+/* banner_5 CSS*/
+
+.banner_5{
+	background-color: rgb(250, 249, 233);
+	width:100%;
+}
+
+
+.banner_5 .container{
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+
+.banner_5 .container h2{
+	color:black;
+	text-align: center;
+
+
+}
+
+.banner_5 .container p{
+	text-align: center;
+	font-size:15px;
+	font-family:'Times New Roman';
+	color:black;
+}
+
+.banner_5 .container hr{
+	width:30px;
+	height:2px;
+	background-color: rgb(243, 54, 21);
+	text-align: center;
+}
+
+.banner_5 .container .row{
+	text-align: center;
+}
+
+.banner_5 .container .row input[type=text]{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	border-color: rgb(204, 203, 203);
+	border-width: 2px;
+
+}
+.banner_5 .container .row  input[type=submit]{
+	float:center;
+	background-color: rgb(238, 187, 22);
+  	color: white;
+  	padding: 9px 30px;
+  	border: none;
+	border-radius: 6px;
+	margin-top:5px;
+
+}
+
+.banner_5 .container .row input[type=text]:hover{
+	border-color:rgb(228, 180, 24);
+  	color:grey;
+}
+
+
+
+
+/* footer CSS */
+
+.footer{
+
+	background-image: url("images/footer.jpg");
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+
+}
+
+.footer .container .row h2{
+	color: white;
+}
+
+.footer .container .row p{
+	text-align: left;
+	color: white;
+}
+
+.footer .container .row input[type=text]{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+.footer .container .row .send input[type=submit]{
+	float:right;
+	background-color: rgb(240, 189, 21);
+  	color: white;
+  	padding: 8px 20px;
+  	border: none;
+  	border-radius: 4px;
+
+}
+.footer .container .row textarea{
+	margin-top: 5px;
+	color:black;
+	padding: 10px;
+	width: 100%;
+}
+
+/* copyright part */
+
+.copyright {
+
+	margin:0;
+	background-color: black;
+	height:50px;
+	padding:10px;
+	text-align:center;
+	
+	}
+	
+.copyright .container p{
+	color:white;
+	}
